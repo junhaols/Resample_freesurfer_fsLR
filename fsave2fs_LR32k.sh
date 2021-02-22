@@ -5,6 +5,7 @@
 # $1:The first input:The gifti format file in fsaverage space.
 # $2:The second input:The hemi of the surf,it should be "L" or "R"
 # $3:The output name of the file registerd to fs_LR32k space.
+# junhaol@mail.bnu.edu.cn
 
 HCP_TEMP=/data/disk1/luojunhao/1001/standard_mesh_atlases/resample_fsaverage
 metric_file=$1
