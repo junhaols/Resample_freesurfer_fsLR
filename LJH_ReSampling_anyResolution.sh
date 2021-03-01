@@ -21,7 +21,7 @@ wb_command -surface-resample /Project-HCP/HCP_S1200_GroupAvg_v1/HCP_S1200_GroupA
 #wb_command -cifti-separate /Project-HCP/Vertex/DataSample/scrub_wm_csf_LR.dtseries.nii COLUMN -metric CORTEX_LEFT/Project-HCP/Vertex/resample_surf/sLR_L_32k.func.gii
 #wb_command -cifti-separate /Project-HCP/Vertex/DataSample/scrub_wm_csf_LR.dtseries.nii COLUMN -metric CORTEX_RIGHT/Project-HCP/Vertex/resample_surf/sLR_R_32k.func.gii
 
-# Resampling metric files. (2 methods:BARYCENTRIC and ADAP_BARY_AREA(recommanded))
+# Resampling metric files. (2 methods:BARYCENTRIC and ADAP_BARY_AREA(recommended))
 #wb_command -metric-resample /Project-HCP/Vertex/resample_surf/sLR_L_32k.func.gii/Project-HCP/HCP_S1200_GroupAvg_v1/HCP_S1200_GroupAvg_v1/S1200.L.sphere.32k_fs_LR.surf.gii /Project-HCP/Vertex/resample_surf/Sphere.10k.L.surf.gii BARYCENTRIC/Project-HCP/Vertex/resample_surf/BARYC_sLR_L_10k.func.gii
 #wb_command -metric-resample /Project-HCP/Vertex/resample_surf/sLR_R_32k.func.gii/Project-HCP/HCP_S1200_GroupAvg_v1/HCP_S1200_GroupAvg_v1/S1200.R.sphere.32k_fs_LR.surf.gii /Project-HCP/Vertex/resample_surf/Sphere.10k.R.surf.gii BARYCENTRIC/Project-HCP/Vertex/resample_surf/BARYC_sLR_R_10k.func.gii
 
