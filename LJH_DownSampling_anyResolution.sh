@@ -30,7 +30,7 @@ wb_command -metric-resample /Project-HCP/Vertex/resample_surf/sLR_L_32k.func.gii
 wb_command -metric-resample /Project-HCP/Vertex/resample_surf/sLR_R_32k.func.gii/Project-HCP/HCP_S1200_GroupAvg_v1/HCP_S1200_GroupAvg_v1/S1200.R.sphere.32k_fs_LR.surf.gii /Project-HCP/Vertex/resample_surf/Sphere.10k.R.surf.gii ADAP_BARY_AREA/Project-HCP/Vertex/resample_surf/ADAP_sLR_R_10k.func.gii -area-surfs/Project-HCP/HCP_S1200_GroupAvg_v1/HCP_S1200_GroupAvg_v1/S1200.R.midthickness_MSMAll.32k_fs_LR.surf.gii/Project-HCP/Vertex/resample_surf/S1200.R.midthickness_MSMAll.10k_fs_LR.surf.gii
 
 
-## Step4:If step3 is doing for cifti file,you should convert the 10k metric file to cifti file.Uncomment the following 2 lines.
+## Step4:If step3 is done for cifti file,you should convert the 10k metric file to cifti file.Uncomment the following 2 lines.
 
 # BARYCENTRIC
 #wb_command -cifti-create-dense-timeseries  /Project-HCP/Vertex/resample_surf/BARYC_sLR_L_10k.dtseries.nii -left-metric  /Project-HCP/Vertex/resample_surf/BARYC_sLR_L_10k.func.gii -timestep 0.72
