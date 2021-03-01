@@ -1,5 +1,5 @@
 #!/usr/bin/env bash 
-## This script is used to resample the metric file to any resolution(e.g.,32k to 10k).
+## This script is used to resample the metric/cifti file to any resolution(e.g.,32k to 10k).
 
 ## Step1:Creat the 10k sphere file.
 # https://www.humanconnectome.org/software/workbench-command/-all-commands-help/wb_command -surface-create-sphere
